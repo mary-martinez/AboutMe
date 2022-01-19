@@ -1,11 +1,11 @@
 body {
     /* feel free to update these css variables for a quick theme */
 
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --color1: rgb(47, 102, 64);
+    --color2: rgb(10, 28, 78);
+    --color3: rgb(32, 133, 158);
+    --color4: rgb(14, 14, 15);
+    --color5: rgb(222, 231, 236);
 
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
 
@@ -26,7 +26,7 @@ body {
     --gutter: 30px;
     --footer-height: 30px;
 
-    font-family: 'Titillium Web', sans-serif;
+    font-family: sans-serif;
     background-color: var(--color2);
 }
 
@@ -36,6 +36,8 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    /* border: whitesmoke 2px solid; */
+
 }
 
 section {
@@ -49,7 +51,10 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    border: solid 2px var(--color4);
+    border-radius: 30px;
+    color: var(--color4);
+    padding: 0px 10px 20px 10px;
 }
 
 header {
@@ -58,11 +63,19 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    font-family: cursive;
+    border:solid;
 }
 
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+}
+
+h3 {
+    padding: 0px 1px 1px 1px;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 .gutter-right {
@@ -74,7 +87,8 @@ header img {
 }
 
 p {
-    margin: var(--gutter);
+    /* margin: var(--gutter); */
+    padding-top: 1px;
 }
 
 footer {
@@ -85,4 +99,26 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+.label {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.city {
+    font-style: italic;
+}
+
+.Basic{
+    margin-top: 200px;
+}
+
+.AdditionalInfo {
+    list-style-type: square;
+}
+
+li {
+    font-size: larger;
 }
