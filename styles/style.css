@@ -52,7 +52,7 @@ section {
     margin-bottom: var(--gutter);
     border: solid 2px var(--color4);
     border-radius: 30px;
-    color: var(--color4)
+    color: var(--color4);
 }
 
 header {
