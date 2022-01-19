@@ -86,3 +86,9 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+.label {
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
