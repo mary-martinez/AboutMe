@@ -13,7 +13,7 @@
 
 body {
     /* style */
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Dancing Script', cursive; */
     background-color: var(--primary-background);
     color: var(--text-color);
 
@@ -43,3 +43,4 @@ footer {
     padding: 10px var(--gutter);
     align-self: stretch;
 }
+

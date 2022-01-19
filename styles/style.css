@@ -5,7 +5,7 @@ body {
     --color2: rgb(10, 28, 78);
     --color3: rgb(32, 133, 158);
     --color4: rgb(14, 14, 15);
-    --color5: rgb(85, 109, 124);
+    --color5: rgb(222, 231, 236);
 
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
 
@@ -26,7 +26,7 @@ body {
     --gutter: 30px;
     --footer-height: 30px;
 
-    font-family: 'Titillium Web', sans-serif;
+    font-family: sans-serif;
     background-color: var(--color2);
 }
 
@@ -36,6 +36,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    /* border: whitesmoke 2px solid; */
 }
 
 section {
@@ -49,7 +50,9 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    border: solid 2px var(--color4);
+    border-radius: 30px;
+    color: var(--color4)
 }
 
 header {
@@ -58,6 +61,7 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    font-family: cursive;
 }
 
 h2 {
@@ -88,7 +92,11 @@ footer {
 }
 
 .label {
-    font-weight: bolder;
+    font-weight: bold;
     text-decoration: underline;
+    /* font-size: larger; */
+}
 
+.city {
+    font-style: italic;
 }
